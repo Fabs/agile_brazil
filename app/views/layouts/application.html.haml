@@ -3,7 +3,7 @@
   
   %head
     %title
-      Agile Brazil 2010 -
+      Evento "code name" Coconut -
       = (yield(:title) || t('title.untitled'))
     %meta{"http-equiv"=>"Content-Type", :content=>"text/html; charset=utf-8"}/
     %link{"rel" => "shortcut icon", "href" => "/favicon.ico"}/
@@ -15,14 +15,10 @@
   %body    
     #container
       #header
-        = link_to image_tag('logo.png'), root_path
+        = "Logo", root_path
         .logo
-          %h1 Agile Brazil 2010
-          %strong Porto Alegre RS, 22-25 Jun/2010
-        %ul#languages
-          %li= link_to "Português", "?locale=pt"
-          %li= link_to "English", "?locale=en"
-        
+          %h1 Coconut
+          %strong São Paulo SP, algum dia        
         = render :partial => 'layouts/menu'
         
       - if show_actions?

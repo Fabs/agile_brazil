@@ -1,6 +1,11 @@
 --- !ruby/object:Gem::Specification 
 name: seed-fu
 version: !ruby/object:Gem::Version 
+  hash: 29
+  segments: 
+  - 1
+  - 2
+  - 1
   version: 1.2.1
 platform: ruby
 authors: 
@@ -9,19 +14,24 @@ autorequire:
 bindir: bin
 cert_chain: []
 
-date: 2009-09-23 00:00:00 +01:00
+date: 2009-09-22 20:00:00 -03:00
 default_executable: 
 dependencies: 
 - !ruby/object:Gem::Dependency 
   name: rails
-  type: :runtime
-  version_requirement: 
-  version_requirements: !ruby/object:Gem::Requirement 
+  requirement: &id001 !ruby/object:Gem::Requirement 
     requirements: 
     - - ">="
       - !ruby/object:Gem::Version 
+        hash: 1
+        segments: 
+        - 2
+        - 1
         version: "2.1"
     version: 
+  type: :runtime
+  version_requirement: 
+  version_requirements: *id001
 description: Seed Fu is an attempt to once and for all solve the problem of inserting and maintaining seed data in a database. It uses a variety of techniques gathered from various places around the web and combines them to create what is hopefully the most robust seed data system around.
 email: michael@intridea.com
 executables: []
@@ -56,18 +66,24 @@ required_ruby_version: !ruby/object:Gem::Requirement
   requirements: 
   - - ">="
     - !ruby/object:Gem::Version 
+      hash: 3
+      segments: 
+      - 0
       version: "0"
   version: 
 required_rubygems_version: !ruby/object:Gem::Requirement 
   requirements: 
   - - ">="
     - !ruby/object:Gem::Version 
+      hash: 3
+      segments: 
+      - 0
       version: "0"
   version: 
 requirements: []
 
 rubyforge_project: 
-rubygems_version: 1.3.5
+rubygems_version: 1.3.7
 signing_key: 
 specification_version: 3
 summary: Allows easier database seeding of tables in Rails.
