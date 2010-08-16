@@ -4,3 +4,4 @@ gem "sqlite3-ruby", :require => "sqlite3"
 
 gem "RedCloth","4.2.3"
 gem "hoe","2.6.1"
+gem "authlogic" 
