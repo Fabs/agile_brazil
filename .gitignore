@@ -4,4 +4,3 @@ log/*.log
 tmp/**/*
 coverage
 **/*~
-config/config*.yml

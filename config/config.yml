@@ -1,0 +1,8 @@
+:smtp_settings:
+  :address: servidor.smtp.pra.mandar.email.com
+  :port: 587
+  :domain: smtp.pra.mandar.email.com
+  :authentication: :login
+  :user_name: no-reply@smtp.pra.mandar.email.com
+  :password: senha
+  :host: localhost:3000
