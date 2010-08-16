@@ -15,10 +15,10 @@
   %body    
     #container
       #header
-        = "Logo", root_path
+        = link_to "Logo", root_path
         .logo
           %h1 Coconut
-          %strong São Paulo SP, algum dia        
+          %strong São Paulo SP, algum dia 
         = render :partial => 'layouts/menu'
         
       - if show_actions?
