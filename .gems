@@ -1,6 +1,0 @@
-rails -v 2.3.5
-RedCloth --version 4.2.3
-hoe --version 2.6.1
-json_pure --version 1.4.4
-launchy --version 0.3.7
-mime-types --version 1.16
